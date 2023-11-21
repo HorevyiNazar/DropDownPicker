@@ -11,8 +11,7 @@
 		EDE07BD32B0D51760086E4E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE07BD22B0D51760086E4E0 /* ContentView.swift */; };
 		EDE07BD52B0D51770086E4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE07BD42B0D51770086E4E0 /* Assets.xcassets */; };
 		EDE07BD82B0D51770086E4E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE07BD72B0D51770086E4E0 /* Preview Assets.xcassets */; };
-		EDE07BDA2B0D51770086E4E0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE07BD92B0D51770086E4E0 /* Persistence.swift */; };
-		EDE07BDD2B0D51770086E4E0 /* DropDownPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE07BDB2B0D51770086E4E0 /* DropDownPicker.xcdatamodeld */; };
+		EDE07BE52B0D522F0086E4E0 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE07BE42B0D522F0086E4E0 /* DropDownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +20,7 @@
 		EDE07BD22B0D51760086E4E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDE07BD42B0D51770086E4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE07BD72B0D51770086E4E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EDE07BD92B0D51770086E4E0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		EDE07BDC2B0D51770086E4E0 /* DropDownPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DropDownPicker.xcdatamodel; sourceTree = "<group>"; };
+		EDE07BE42B0D522F0086E4E0 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +53,10 @@
 		EDE07BCF2B0D51760086E4E0 /* DropDownPicker */ = {
 			isa = PBXGroup;
 			children = (
+				EDE07BE32B0D52200086E4E0 /* View */,
 				EDE07BD02B0D51760086E4E0 /* DropDownPickerApp.swift */,
 				EDE07BD22B0D51760086E4E0 /* ContentView.swift */,
 				EDE07BD42B0D51770086E4E0 /* Assets.xcassets */,
-				EDE07BD92B0D51770086E4E0 /* Persistence.swift */,
-				EDE07BDB2B0D51770086E4E0 /* DropDownPicker.xcdatamodeld */,
 				EDE07BD62B0D51770086E4E0 /* Preview Content */,
 			);
 			path = DropDownPicker;
@@ -71,6 +68,14 @@
 				EDE07BD72B0D51770086E4E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDE07BE32B0D52200086E4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDE07BE42B0D522F0086E4E0 /* DropDownView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE07BDA2B0D51770086E4E0 /* Persistence.swift in Sources */,
 				EDE07BD32B0D51760086E4E0 /* ContentView.swift in Sources */,
-				EDE07BDD2B0D51770086E4E0 /* DropDownPicker.xcdatamodeld in Sources */,
 				EDE07BD12B0D51760086E4E0 /* DropDownPickerApp.swift in Sources */,
+				EDE07BE52B0D522F0086E4E0 /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,19 +356,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EDE07BDB2B0D51770086E4E0 /* DropDownPicker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EDE07BDC2B0D51770086E4E0 /* DropDownPicker.xcdatamodel */,
-			);
-			currentVersion = EDE07BDC2B0D51770086E4E0 /* DropDownPicker.xcdatamodel */;
-			path = DropDownPicker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = EDE07BC52B0D51760086E4E0 /* Project object */;
 }
